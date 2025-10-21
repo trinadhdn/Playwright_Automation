@@ -1,31 +1,30 @@
 # QA Automation Test – Playwright + TypeScript
 
-This repository contains automated test scripts for the QA Automation Test assignment. The automation is implemented using **Playwright** with **TypeScript** and follows the **Page Object Model** design pattern.
+This repository contains automated test scripts for the QA Automation Test assignment. The automation is implemented using **Playwright** with **TypeScript** and follows the **Page Object Model (POM)** design pattern.
 
 ---
 
-## **Automated Test Scenarios**
+## Automated Test Scenarios
 
-### HRM System – Add New Employee
+### 1️⃣ HRM System – Add New Employee
 - Adds a new employee via the PIM module.
 - Verifies first name, middle name, last name, and employee ID.
 - Covers end-to-end flow: login → PIM → Add Employee → Save → Verify.
 
-### E-Commerce System – End-to-End Shopping Flow (excluding payment)
+### 2️⃣ E-Commerce System – End-to-End Shopping Flow (excluding payment)
 - Logs in as a user, browses products, adds an item to the cart, and verifies the checkout summary.
 - Covers core user journey and cross-module interactions.
 
 ---
 
-## **Setup Instructions**
+## Setup Instructions
 
 1. **Clone the Repository**
-
+```bash
 git clone https://github.com/trinadhdn/Playwright_Automation.git
-
 cd Playwright_Automation
-Install Dependencies
 
+## Install Dependencies
 npm install
 Configure Environment Variables
 
@@ -63,6 +62,8 @@ Project Structure
 ├── tsconfig.json          # TypeScript configuration
 ├── package.json           # Project dependencies and scripts
 └── .env                   # Environment variables
+
+
 Dependencies
 Playwright
 
