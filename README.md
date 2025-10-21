@@ -22,6 +22,7 @@ This repository contains automated test scripts for the QA Automation Test assig
 1. **Clone the Repository**
 
 git clone https://github.com/trinadhdn/Playwright_Automation.git
+
 cd Playwright_Automation
 Install Dependencies
 
