@@ -1,0 +1,15 @@
+{
+    "usernameInput": "input[placeholder='Username']",
+    "passwordInput": "input[placeholder='Password']",
+    "loginButton": "button[type='submit']",
+    "clientBrandBannerLink": "a[title='client brand banner']",
+    "dashboardLink": "a[title='Dashboard']",
+    "pimLink": "//span[text()='PIM']",
+    "addButton": "//button[text()=' Add ']",
+    "firstNameInput": "input[placeholder='First Name']",
+    "middleNameInput": "input[placeholder='Middle Name']",
+    "lastNameInput": "input[placeholder='Last Name']",
+    "employeeIdInput": "//label[text()='Employee Id']/../..//input",
+    "saveButton": "button[type='submit']"
+  }
+  
